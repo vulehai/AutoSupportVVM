@@ -1,0 +1,35 @@
+﻿<Window x:Class="AutoChanges.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="650" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Button Grid.Row="0" Width="50" Height="20" Content="Changes" Click="Button_Click"/>
+            <Button Grid.Row="0" Width="50" Height="20" x:Name="btnDelete" Content="Delete" Click="btnDelete_Click"/>
+        </StackPanel>
+        
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Old values" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtIdOld" Grid.Column="1" Width="100" TextWrapping="Wrap" AcceptsReturn="True" />
+            <TextBlock Text="Values Delete" Grid.Column="2" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtCouper" Grid.Column="3" Width="100" TextWrapping="Wrap" AcceptsReturn="True" />
+            <TextBlock Text="New values" Grid.Column="4" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtIdNew" Grid.Column="5" Width="100" TextWrapping="Wrap" AcceptsReturn="True" />
+        </Grid>
+        <TextBox Grid.Row="3" x:Name="txtShowLog" Height="150"/>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\bin\Debug\AutoChanges.exe.config
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\App.g.cs
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges_MarkupCompile.cache
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\bin\Debug\AutoChanges.exe
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\bin\Debug\AutoChanges.pdb
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\MainWindow.baml
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\MainWindow.g.cs
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges.g.resources
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges.Properties.Resources.resources
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges.csproj.GenerateResource.Cache
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges.exe
+c:\users\hai.vu\documents\visual studio 2013\Projects\AutoChanges\AutoChanges\obj\Debug\AutoChanges.pdb
