@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="AutoChanges.H2Home"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="650" d:DesignWidth="1173">
+    <Grid>
+        <TabControl x:Name="tabControl" SelectionChanged="tabControl_SelectionChanged">
+                <TabItem x:Name="tabItemCommon" Header="Get Common Resource">
+                  <Grid x:Name="grdCommonResource"/>
+                </TabItem>
+                <TabItem x:Name="tabItemGrid" Header="Grid Tool">
+                    <Grid x:Name="grdTool"/>
+                </TabItem>
+                 <TabItem x:Name="tabItemResource" Header="Changes Resoure">
+                      <Grid x:Name="grdChangesResource"/>
+                 </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>
